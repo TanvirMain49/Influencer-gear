@@ -213,7 +213,7 @@ body{
 
 
 footer{
-    height: 170px;
+    height: 200px;
     background-color: rgba(2, 2, 50, 0.932);
     color: white;
     text-align: center;
@@ -233,10 +233,24 @@ footer{
 
 .footer-description{
     margin-top: 6px;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: 400px;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
+    text-align: center;
+    margin-left: 30px;
+
 }
 
+.social-icons{
+    color: white;
+    margin-bottom: 20px;
+    
+}
 
 
 /* response */
